@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CC99FF;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#newsCategory {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#newsContent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
