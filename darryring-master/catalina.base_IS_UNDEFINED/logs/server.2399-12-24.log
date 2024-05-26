@@ -1,0 +1,24 @@
+15:56:04.944 [restartedMain] INFO  com.zsz.darryring.DarryringApplication - Starting DarryringApplication using Java 17.0.8 on xiaoMa with PID 29644 (C:\Users\22222222222222222222\Desktop\darryring-master\target\classes started by 22222222222222222222 in C:\Users\22222222222222222222\Desktop\darryring-master)
+15:56:04.947 [restartedMain] INFO  com.zsz.darryring.DarryringApplication - No active profile set, falling back to 1 default profile: "default"
+15:56:04.994 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:56:04.994 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:56:06.042 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+15:56:06.050 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+15:56:06.050 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+15:56:06.052 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+15:56:06.102 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/darryringshop] - Initializing Spring embedded WebApplicationContext
+15:56:06.102 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1108 ms
+15:56:06.151 [restartedMain] WARN  o.a.c.c.C.[Tomcat].[localhost].[/darryringshop] - Cannot deserialize session attribute [user] for session [FCBC6117A84BE2407E3973990A5C833D]
+15:56:06.660 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+15:56:06.738 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+15:56:06.895 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:56:06.914 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+15:56:06.931 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '/darryringshop'
+15:56:06.941 [restartedMain] INFO  com.zsz.darryring.DarryringApplication - Started DarryringApplication in 2.309 seconds (JVM running for 2.937)
+15:56:42.028 [http-nio-8088-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/darryringshop] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:56:42.028 [http-nio-8088-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:56:42.029 [http-nio-8088-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+15:56:59.289 [http-nio-8088-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - defaultDataSource - Starting...
+15:56:59.680 [http-nio-8088-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - defaultDataSource - Start completed.
+15:58:07.073 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - defaultDataSource - Shutdown initiated...
+15:58:07.081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - defaultDataSource - Shutdown completed.
